@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>IFrames</title>
+
+    <style>
+
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            background-image: linear-gradient(to bottom, rgb(42, 83, 114), rgb(0, 36, 52));
+        }
+
+        main{
+            margin: auto;
+            max-width: 80vh;
+            min-width: 320px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.747);
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.397);
+        }
+
+        main > p.info{
+            background-color: antiquewhite;
+            max-width: 500px;
+            padding: 8px;
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+        }
+
+        iframe{
+            border-radius: 10px;
+            box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.422);
+        }
+
+        footer{
+            padding: 2px;
+            background-color: black;
+            border-radius: 2px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>iFrames</h1>
+        <h2>O que são os iFrames?</h2>
+        <p class="info">Os iFrames são objetos "inline" que podem ser utilizados para abrir, dentro deles mesmos, outras páginas da internet,
+            outras páginas dentro do projeto, vídeos do YouTube e Vimeo, mapas do Google, mapas do Waze, documentos Google entre outros.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore at, recusandae, aliquam molestiae hic corporis, animi sapiente nesciunt quis quaerat voluptates voluptas eligendi voluptate optio harum eum fuga perspiciatis necessitatibus.</p>
+
+        <h2>Vídeo do Youtube</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dzhJsc1YszU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <h2>Vídeo do Vimeo</h2>
+        <div style="padding:75.98% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/770741142?h=9091739ee2" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        <br>
+        <h2>Mapas do Google</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15097.812426415989!2d-48.27518338284911!3d-18.911328040824866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1671028772339!5m2!1sen!2sbr" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br>
+        <h2>Mapas do Waze</h2>
+        <iframe src="https://embed.waze.com/iframe?zoom=16&lat=-18.911619&lon=-48.261244&ct=livemap" width="500" height="450" allowfullscreen></iframe>
+        <br>
+        <h2>Google Docs</h2>
+        <p>Análise Orientada a Objetos:</p>
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vTVxz4wrO_0_4PFFG3QDuaeAqiUwB5RBFoCbVUuBz6j2l40aMfjsVVIBq4q44xY5mzOpZD_dQASF2Zy/pub?embedded=true" width="500" height="450" allowfullscreen></iframe>></iframe>
+    </main>
+    <footer> Site criado por Lucas Benassi </footer>
+</body>
+</html>
